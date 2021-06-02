@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 5px;
+  background-image: linear-gradient(to right, #283048, #859398);
+  color: rgb(238, 237, 237);
+  min-height: 8vh;
+}
+
+nav .pageTitle {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 3vh;
+}
+
+nav .authors ul {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+}
+
+nav .authors ul li {
+  padding: 5px;
+}
+
+main {
+  background-image: linear-gradient(to right, #1cd8d2, #93edc7);
+  min-height: 92vh;
+}
+
+.inputbox {
+  padding: 3%;
+  padding-left: 70px;
+  color: rgb(6, 34, 53);
+}
+
+.inputbox .content {
+  align-items: center;
+}
+
+.inputbox ul {
+  list-style: upper-roman;
+  font-size: 3vh;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding-left: 15px;
+}
+
+.inputbox ul li {
+  padding: 8px;
+}
+
+.outputbox {
+  padding-top: 3%;
+}
+
+.final-result {
+  font-size: 30px;
+}
